@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.cont1{
+    max-width: 650px;
+background-color: brown;
+height: auto;
+}
+.user-me{
+    background-color: aqua;
+    height: auto;
+}
+.details{
+    height: auto;
+    background-color: burlywood;
+}
+.user-me{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.details{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+.details input{
+ height: 40px;
+width: 90%;
+border-radius: 7px;
+outline: none;
+border: 1px solid grey;
+padding: 0 10px;
+}
+@media(max-width: 600px){
+    .container{
+        min-width: 280px;
+    }
+
+    .details{
+       /* margin-bottom: 12px;*/
+        width: 100%;
+    }
+}
